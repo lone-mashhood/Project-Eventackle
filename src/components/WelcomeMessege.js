@@ -4,8 +4,8 @@ function WelcomeMsg(props){
     return <div className="hello-msg">
 
     <div className="welcome-div">
-        <h1 className="profile-heading"> Hi Mashhood Jeelani </h1>
-        <p className="welcome-message">Welcome back Mashhood Jeelani. We are glad you are here. Inspire the best work in people enabling them to achieve their goals.</p>
+        <h1 className="profile-heading">Mashhood Jeelani here! </h1>
+        <p className="welcome-message">Sorry, the web page is not very responsive. I usually use CSS frameworks like Bootstrap to make the pages responsive. You were pretty clear with not using any CSS framework. Pardon me for the page responsiveness! </p>
         <a className="profile-button" href ="https://www.github.com/mashhood-jeelani">View Details</a>
     </div>  
 

@@ -18,10 +18,6 @@ function App() {
                 key={blog.key}
                 title={blog.title}
                 content= {blog.content.substring(0,50)+"..."}
-                img={blog.imgURL}
-                img={blog.imgURL}
-                img={blog.imgURL}
-                img={blog.imgURL}
                 claps={(Math.floor(Math.random()*99)+1)}
             
             />
