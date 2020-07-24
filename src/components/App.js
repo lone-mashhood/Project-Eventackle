@@ -1,16 +1,17 @@
 import React from "react";
-import Sidebar from "./Sidebar";
 import WelcomeMsg from "./WelcomeMessege";
+import TopSection from "./TopSection"
 import RightSection from "./RightSection";
 import Footer from "./Footer";
 import Searchbar from "./Searchbar";
+import Navbar from "./Navbar";
 import Blog from "./Blog";
 import blogs from "../blogs"
 
 function App() {
     return(
         <div>
-            <Sidebar />
+            <Navbar/>
             <Searchbar />
             <WelcomeMsg />
             {blogs.map( blog => <Blog
@@ -25,6 +26,7 @@ function App() {
             
             />
             )}
+            <TopSection />
             <RightSection />
             <Footer />
         </div>
