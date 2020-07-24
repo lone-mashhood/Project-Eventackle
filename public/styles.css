@@ -157,7 +157,7 @@ strong{
   background: #F5F5F5;
   width: 60%;
   position: relative;
-  left: 130px;
+  left: 155px;
   top:320px;
 }
 
@@ -257,7 +257,7 @@ strong{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  height: 500px;
+  height: 600px;
   background-color: #f7f7f7;
   padding: 30px;
   border-radius: 25px;
@@ -330,6 +330,8 @@ strong{
   background-color: white;
   margin-top: 30px;
   border-radius: 20px;
+  position: relative;
+  bottom:30px;
 }
 
 .section-banner .description {
@@ -495,4 +497,51 @@ a:hover .dropdown:hover .dropbtn {
   width 20%;
   position: relative;
   top:11px;
+}
+
+
+
+
+
+.followers-wrapper{
+  position: relative;
+  bottom:25px;
+}
+
+.follower-img{
+  box-shadow: 5px;
+  width:80px;
+  height: 80px;
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.12);
+  padding: 5px;
+}
+.follower-img:hover{
+  transform: scale(1.1);
+  transition-duration:1s;
+}
+
+.follow-heading{
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+
+.follow-head{
+  float: left;
+  position: relative;
+  left: 8px;
+}
+
+.view-all-div{
+  height: 50px;
+  width: 50%;
+  float: right;
+}
+
+.view-all{
+  float: right;
+  position: relative;
+  top:7px;
+  right: 20px;
 }
