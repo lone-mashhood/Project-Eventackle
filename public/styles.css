@@ -18,6 +18,10 @@ footer {
   height: 2.5rem;
 }
 
+strong{
+  color : black;
+}
+
 /* Sidebar--> */
 
 .sidebar{
@@ -248,4 +252,134 @@ a:hover, a:active {
 }
 .search-input.active{
   
+}
+
+/* Right Section --*/
+
+.right-section-container{
+  float: right;
+  position: absolute;
+  right:20px;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 500px;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.right-section-card {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 1px 1px 1.5px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 1px 1px 1.5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px 1.5px rgba(0, 0, 0, 0.12);
+}
+
+.right-section-card > .cards-left {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-section-card  .cards-left  .wrap-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section-card  .cards-left  .wrap-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+.section-info {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.card .card-right {
+  background-color: #efefef;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.section-banner .description {
+  color: grey;
+  margin: 0px 20% 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.purchase-button {
+    position: relative;
+    bottom: -15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding : 10px;
+    border-radius: 8px;
+}
+.purchase-button:hover{
+  background-color:grey;
+  color: white;
+  transition-duration:.5s;
+  transform: scale(1.05);
+}
+
+.right-section-card .clap-icon{
+  position: relative;
+  top : 0px;
+  left:2px;
+}
+
+
+
+.articles-posted{
+  background-color: #fbefcc
+}
+
+.claps-this-week{
+  background-color:#ccccff
+}
+
+.followers-this-week{
+  background-color: #e0e2e4
 }
