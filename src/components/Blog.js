@@ -18,7 +18,7 @@ function Blog(props) {
 
         <div className="clap-number">
             <img className = "clap-icon" src="https://image.flaticon.com/icons/svg/2636/2636674.svg"/>
-           <b> <p className="clapper-number">{props.claps}</p></b>
+            <strong><p className="clapper-number">{props.claps}k</p></strong>
         </div>
      
     </div>

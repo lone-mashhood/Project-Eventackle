@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import WelcomeMsg from "./WelcomeMessege";
+import RightSection from "./RightSection";
 import Footer from "./Footer";
 import Searchbar from "./Searchbar";
 import Blog from "./Blog";
@@ -20,11 +21,11 @@ function App() {
                 img={blog.imgURL}
                 img={blog.imgURL}
                 img={blog.imgURL}
-                claps={(Math.floor(Math.random()*99)+1) + "k"}
+                claps={(Math.floor(Math.random()*99)+1)}
             
             />
-            
-    )}
+            )}
+            <RightSection />
             <Footer />
         </div>
     ); 
