@@ -606,6 +606,7 @@ th:after {
   margin: 1px 0 0 0;
 }
 td {
+  width: 70px;
   text-align: left;
   padding: 10px 15px;
   text-align: left;
@@ -636,3 +637,4 @@ select {
   right: 450px;
   top:50px;
 }
+
