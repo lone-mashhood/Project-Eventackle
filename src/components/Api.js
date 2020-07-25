@@ -33,11 +33,11 @@ function Api() {
 
   return (
     <div className="api"> 
-    {/* <div>
-      <div className=""><h3>Date</h3></div>
-      <div className=""><h3>Title</h3></div>
-      <div className=""><h3>Post Status</h3></div>
-    </div> */}
+    <div class="top-table">
+      <a href="#">Date</a>
+      <a href="#">Title</a>
+      <a href="#">Post</a>
+    </div>
 
       <div className="table-options">
       <div className="list-of-blogs"><h3>List of Blogs</h3></div> <div><p className="filter-by">filter by</p></div>
@@ -69,18 +69,12 @@ function Api() {
               
             <tbody>
                 <tr>
-                  <td>{new Date(postDate).toLocaleDateString()}</td>
-                   <td>{post.title}</td>
-                   <td>{post.status}</td>
+                   <td className="table-dates">{new Date(postDate).toLocaleDateString()}</td>
+                   <td className="table-post">{post.title}</td>
+                   <td className="table-status">{post.status}</td>
                 </tr>
               </tbody>
             </table>
-
-
-
-              {/* <span style={{ marginRight: 10 }}>{new Date(postDate).toLocaleDateString()}</span>
-              <span style={{ marginRight: 10 }}>{post.title}</span>
-              <span style={{ marginRight: 10 }}>{post.status}</span> */}
             </div>
           )
         })}
