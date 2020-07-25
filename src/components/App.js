@@ -6,7 +6,8 @@ import Footer from "./Footer";
 import Searchbar from "./Searchbar";
 import Navbar from "./Navbar";
 import Blog from "./Blog";
-import blogs from "../blogs"
+import Api from "./Api"
+import blogs from "../blogs";
 
 function App() {
     return(
@@ -22,6 +23,7 @@ function App() {
             
             />
             )}
+            <Api />
             <TopSection />
             <RightSection />
             <Footer />
