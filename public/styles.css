@@ -158,6 +158,7 @@ strong{
   position: relative;
   left: 155px;
   top:320px;
+  z-index: 1;
 }
 
 .blog {
@@ -167,6 +168,7 @@ strong{
   width: 230px;
   margin: 10px;
   float: left;
+  z-index: 2;
 }
 .blog:hover{
   transform: scale(1.05);
@@ -637,6 +639,9 @@ select {
   position: relative;
   right: 450px;
   bottom:60px;
+}
+.lob{
+  height: 40px;
 }
 
 .filter-by{
