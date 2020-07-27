@@ -26,7 +26,7 @@ function App() {
             <Api />
             <TopSection />
             <RightSection />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     ); 
 }

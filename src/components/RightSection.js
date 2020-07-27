@@ -3,7 +3,7 @@ import React from "react";
 function RightSection(){
     return <div>
         <div className="right-section-container">
-        <div className="right-section-card">
+        <a class="card-click" href = "#"><div className="right-section-card">
             <div className="cards-left">
                 <div className="wrap-icon articles-posted">
                     <span className="material-icons">
@@ -20,8 +20,8 @@ function RightSection(){
                     keyboard_arrow_right
                 </span>
             </div>
-        </div>
-        <div className="right-section-card">
+        </div></a>
+        <a class="card-click" href = "#"><div className="right-section-card">
             <div className="cards-left">
                 <div className="wrap-icon claps-this-week">
                     <span>
@@ -38,8 +38,8 @@ function RightSection(){
                     keyboard_arrow_right
                 </span>
             </div>
-        </div>
-        <div className="right-section-card">
+        </div></a>
+        <a class="card-click" href = "#"><div className="right-section-card">
             <div className="cards-left">
                 <div className="wrap-icon followers-this-week">
                     <span className="material-icons">
@@ -56,7 +56,7 @@ function RightSection(){
                     keyboard_arrow_right
                 </span>
             </div>
-        </div>
+        </div></a>
 
 
 
