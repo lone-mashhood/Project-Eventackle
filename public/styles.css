@@ -37,10 +37,11 @@ strong{
   width: 50px;
   margin: 20px 20px;
   border-radius: 23px;
+  height:85%
 }
 .icon-img {
   position: relative;
-  top:30px;
+  top:25px;
   width: 25px;
   height: 25px;
   margin: 25px 25px;
