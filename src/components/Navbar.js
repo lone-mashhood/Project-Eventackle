@@ -14,7 +14,7 @@ function Navbar(){
     <a className="nav-item" href ="#"> <img class="icon-img" src={Book} /> </a>
     <a className="nav-item" href ="#">  <img class="icon-img" src={Notepad} /></a>
     <a className="nav-item" href ="#"> <img class="icon-img" src={Settings} /> </a>
-    <a className="nav-item" href ="#"> <img class="icon-img set" src={Logout} /> </a>
+    <a className="nav-item signout" href ="#"> <img class="icon-img set" src={Logout} /> </a>
   </div>
 }
 

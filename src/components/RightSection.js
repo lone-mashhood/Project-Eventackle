@@ -74,9 +74,9 @@ function RightSection(){
 
         <div className="section-banner">
             <span className="description">Buy Pro Account to Explore <strong>Premium Features</strong></span>
-            <button className="purchase-button">
+            <a href ="http://www.amazon.com"><button className="purchase-button">
                 Purchase Now
-            </button>
+            </button></a>
         </div>
     </div>
 
