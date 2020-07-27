@@ -375,14 +375,16 @@ strong{
 }
 
 .follower-img{
+  box-shadow: 1px 1px 3px grey;
   box-shadow: 5px;
   width:80px;
   height: 80px;
   border-radius: 20%;
   box-shadow: rgba(0, 0, 0, 0.12);
-  padding: 5px;
+  margin: 5px;
 }
 .follower-img:hover{
+  box-shadow: 3px 3px 5px grey;
   transform: scale(1.1);
   transition-duration:1s;
 }
@@ -492,6 +494,7 @@ a:hover .dropdown:hover .dropbtn {
   position: relative;
   top:-5px;
   color: grey;
+  left:5px;
 }
 
 .main-profile-pic{
@@ -501,6 +504,11 @@ a:hover .dropdown:hover .dropbtn {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+.main-profile-pic:hover{
+  box-shadow: 3px 3px 5px grey;
+  transform: scale(1.02);
+  transition-duration:1s;
 }
 
 .profile-pic-container{
@@ -657,6 +665,7 @@ select {
 }
 
 .top-table {
+  z-index: -5;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color:grey;
@@ -676,9 +685,4 @@ select {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
-
-.top-table a.active {
-  background-color: #4CAF50;
-  color: white;
 }
