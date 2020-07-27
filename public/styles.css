@@ -6,15 +6,18 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   background: white;
+  height: 1700px;
 }
 
 footer {
   height: 100px;;
   position: absolute;
   text-align: center;
-  bottom: 0px;
+  top: 1700px;
   width: 100%;
   height: 2.5rem;
+  padding: 25px;
+  background-color:#F5F5F5;
 }
 
 strong{
@@ -24,6 +27,7 @@ strong{
 /* Navbar--> */
 
 #nav {
+  z-index: 5;
   padding: 25px;
   align-items: center;
   display: flex;
@@ -364,6 +368,48 @@ strong{
   left:2px;
 }
 
+.followers-wrapper{
+  position: relative;
+  bottom:25px;
+}
+
+.follower-img{
+  box-shadow: 5px;
+  width:80px;
+  height: 80px;
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.12);
+  padding: 5px;
+}
+.follower-img:hover{
+  transform: scale(1.1);
+  transition-duration:1s;
+}
+
+.follow-heading{
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+
+.follow-head{
+  float: left;
+  position: relative;
+  left: 8px;
+}
+
+.view-all-div{
+  height: 50px;
+  width: 50%;
+  float: right;
+}
+
+.view-all{
+  float: right;
+  position: relative;
+  top:7px;
+  right: 20px;
+}
 
 
 .articles-posted{
@@ -378,6 +424,10 @@ strong{
   background-color: #e0e2e4
 }
 
+.card-click{
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Top Section */
 
@@ -498,52 +548,7 @@ a:hover .dropdown:hover .dropbtn {
   top:11px;
 }
 
-
-
-
-
-.followers-wrapper{
-  position: relative;
-  bottom:25px;
-}
-
-.follower-img{
-  box-shadow: 5px;
-  width:80px;
-  height: 80px;
-  border-radius: 20%;
-  box-shadow: rgba(0, 0, 0, 0.12);
-  padding: 5px;
-}
-.follower-img:hover{
-  transform: scale(1.1);
-  transition-duration:1s;
-}
-
-.follow-heading{
-  height: 50px;
-  width: 50%;
-  float: left;
-}
-
-.follow-head{
-  float: left;
-  position: relative;
-  left: 8px;
-}
-
-.view-all-div{
-  height: 50px;
-  width: 50%;
-  float: right;
-}
-
-.view-all{
-  float: right;
-  position: relative;
-  top:7px;
-  right: 20px;
-}
+/* List of Blogs ---> */
 
 .lob-container{
   position: absolute;
