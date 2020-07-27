@@ -1,6 +1,11 @@
-# Project-Eventackle
-Front End Project for Eventackle.
+# Project Eventackle
 
-This is a react app.
+## Project setup
+```
+npm install
+```
 
-Make sure to iniitialize npm and then enter "npm start" to view the project.
+### Compiles and hot-reloads for development
+```
+npm start 
+```
