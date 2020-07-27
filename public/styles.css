@@ -84,9 +84,17 @@ strong{
   margin: 10px;
   float: left;
 }
+
 .welcome-div{
   width: 70%;
   float: left;
+}
+.welcome-message{
+  padding-bottom: 15px;
+  color: grey;
+  font-size: 1.0em;
+  margin-bottom: 10px;
+  word-wrap: break-word;
 }
 
 .profile-button{
@@ -678,7 +686,7 @@ select {
   z-index: -5;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color:grey;
+  background-color:#F5F5F5;
   overflow: hidden;
   width:500p;
   position: absolute;
@@ -690,8 +698,8 @@ select {
   height: 20px;
   width: 261px;
   float: left;
-  color: #f2f2f2;
-  text-align: center;
+  color: grey;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
