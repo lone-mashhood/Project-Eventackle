@@ -1,6 +1,9 @@
 # Project Eventackle
 
 ## Project setup
+
+
+### Install npm
 ```
 npm install
 ```
