@@ -1,14 +1,14 @@
 # Project Eventackle
 
-## Project setup
 
+## Setting up the react app:
 
 ### Install npm
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilation and Testing
 ```
 npm start 
 ```
