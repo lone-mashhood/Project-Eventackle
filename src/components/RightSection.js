@@ -66,10 +66,10 @@ function RightSection(){
         <div className="follow-heading"><h4 className="follow-head">Followers</h4></div><div className="view-all-div"><p className="view-all">View All</p></div>
         
 
-            <a className="followers" href ="#"> <img class="follower-img" src= "https://pbs.twimg.com/profile_images/1157313327867092993/a09TxL_1_400x400.jpg"/>  </a>
-            <a className="followers" href ="#"> <img class="follower-img" src="https://pbs.twimg.com/profile_images/832679643291512833/q2p9YNOt_400x400.jpg" /> </a>
-            <a className="followers" href ="#"> <img class="follower-img" src="https://pbs.twimg.com/profile_images/898280220037443585/mthp5TlW_400x400.jpg" /> </a>
-            <a className="followers" href ="#">  <img class="follower-img" src="https://pbs.twimg.com/profile_images/1181229626284265472/Rh8wrrvO_400x400.jpg" /></a>
+            <a className="followers" href ="https://twitter.com/Cristiano"> <img class="follower-img" src= "https://pbs.twimg.com/profile_images/1157313327867092993/a09TxL_1_400x400.jpg"/>  </a>
+            <a className="followers" href ="https://twitter.com/michaelb4jordan"> <img class="follower-img" src="https://pbs.twimg.com/profile_images/832679643291512833/q2p9YNOt_400x400.jpg" /> </a>
+            <a className="followers" href ="https://twitter.com/RafaelNadal"> <img class="follower-img" src="https://pbs.twimg.com/profile_images/898280220037443585/mthp5TlW_400x400.jpg" /> </a>
+            <a className="followers" href ="https://twitter.com/rogerfederer">  <img class="follower-img" src="https://pbs.twimg.com/profile_images/1181229626284265472/Rh8wrrvO_400x400.jpg" /></a>
         </div>
 
         <div className="section-banner">

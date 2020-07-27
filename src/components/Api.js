@@ -42,9 +42,9 @@ function Api() {
       <div className="table-options">
       <div className="list-of-blogs"><h3 className="lob">List of Blogs</h3></div> <div><p className="filter-by">filter by</p></div>
       <select value={status} onChange={handleStatusChange}>
-        <option value="published">published</option>
-        <option value="draft">draft</option>
-        <option value="deactivated">deactivated</option>
+        <option value="published">Published</option>
+        <option value="draft">Draft</option>
+        <option value="deactivated">Deactivated</option>
       </select>
       <select value={date} onChange={handleDateChange}>
         <option value="2017">2017</option>

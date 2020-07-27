@@ -23,7 +23,7 @@ function TopSection(){
             <p className="user-handle">@LoneMashhood</p>
         </div>
         <div className="profile-pic-container">
-             <img className="main-profile-pic" src="https://picsum.photos/200/300"/>
+             <a href="https://github.com/mashhood-jeelani"><img className="main-profile-pic" src="https://picsum.photos/200/300"/></a>
         </div>
 
     </div>
